@@ -12,3 +12,15 @@ then it will assign them to racks based on the following logic:
 4. It is illegal to place patients who live in the same city district into the same rack
 5. It is illegal to place patients with the same vision defect into the same rack
 6. The number of racks is very limited
+
+## Before install
+- Install proper version of Node `nvm i` using [NVM](https://github.com/nvm-sh/nvm)
+- Use installed Node version `nvm use`
+
+## Getting started:
+
+1. Pull the app from github:
+   https://github.com/gunitguy/marcel-fe-task
+2. `npm i` - install dependencies
+3. `npm run build` - running the webpack
+4. Then built app files will show in “dist” folder.
