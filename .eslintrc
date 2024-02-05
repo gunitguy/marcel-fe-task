@@ -26,6 +26,15 @@
     "no-param-reassign": "off",
     "prefer-const": "warn",
     "object-shorthand": "off",
-    "spaced-comment": "warn"
+    "spaced-comment": "warn",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "": "never",
+        "js": "never",
+        "ts": "never"
+      }
+    ]
   }
 }

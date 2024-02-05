@@ -1,7 +1,7 @@
 import path from "path";
 import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-import { WebpackConfiguration } from "webpack-cli";
+import type { WebpackConfiguration } from "webpack-cli";
 
 const config: WebpackConfiguration = {
   entry: "./src/index.ts",
