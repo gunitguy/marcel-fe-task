@@ -24,3 +24,26 @@ then it will assign them to racks based on the following logic:
 2. `npm i` - install dependencies
 3. `npm run build` - running the webpack
 4. Then built app files will show in “dist” folder.
+
+## Running and testing app locally:
+
+1. `npm run start`
+2. Open app in browser at `localhost:8080`
+3. Put test json with data (from `/data/test-tubes.json`) into file input
+4. Add limit for racks
+5. Submit and see the result (group tubes and hwo many additional racks were needed)
+
+## Tests and linters
+
+1. `npm run test` - run unit tests
+2. `npm run lint` - run eslint and prettier checks
+3. `npm run lint:fix` - run eslint and prettier with fix
+4. `npm run test:all` - run all checks (prettier, eslint, jest tests)
+
+## Improvements:
+
+- more unit tests can be added
+- E2E tests can be added
+- media queries to be apply responsiveness
+- validation for object in file input
+- more advanced error handling
