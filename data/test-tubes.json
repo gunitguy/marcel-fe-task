@@ -1,0 +1,132 @@
+{
+  "tubes": [
+    {
+      "id": 1,
+      "age": 20,
+      "companyName": "Company1",
+      "city": "Krakow",
+      "cityDistrict": "District1",
+      "visionDefect": null
+    },
+    {
+      "id": 2,
+      "age": 22,
+      "companyName": "Company2",
+      "city": "Krakow",
+      "cityDistrict": "District2",
+      "visionDefect": -0.5
+    },
+    {
+      "id": 3,
+      "age": 20,
+      "companyName": "Company2",
+      "city": "Warsaw",
+      "cityDistrict": "Prądnik",
+      "visionDefect": -0.5
+    },
+    {
+      "id": 4,
+      "age": 70,
+      "companyName": "My company",
+      "city": "Warsaw",
+      "cityDistrict": "Prądnik",
+      "visionDefect": -0.5
+    },
+    {
+      "id": 5,
+      "age": 25,
+      "companyName": "Company3",
+      "city": "Poznan",
+      "cityDistrict": "District3",
+      "visionDefect": 0.5
+    },
+    {
+      "id": 6,
+      "age": 22,
+      "companyName": "Company4",
+      "city": "Warsaw",
+      "cityDistrict": "Mokotow",
+      "visionDefect": 0.5
+    },
+    {
+      "id": 7,
+      "age": 30,
+      "companyName": "Company1",
+      "city": "Krakow",
+      "cityDistrict": "District4",
+      "visionDefect": null
+    },
+    {
+      "id": 8,
+      "age": 35,
+      "companyName": "Company5",
+      "city": "Lublin",
+      "cityDistrict": "Ursus",
+      "visionDefect": 0.75
+    },
+    {
+      "id": 9,
+      "age": 25,
+      "companyName": "Company6",
+      "city": "Krakow",
+      "cityDistrict": "District5",
+      "visionDefect": -1.0
+    },
+    {
+      "id": 10,
+      "age": 22,
+      "companyName": "Company7",
+      "city": "Warsaw",
+      "cityDistrict": "Bielany",
+      "visionDefect": 0.0
+    },
+    {
+      "id": 11,
+      "age": 30,
+      "companyName": "Company1",
+      "city": "Krakow",
+      "cityDistrict": "District6",
+      "visionDefect": -1.0
+    },
+    {
+      "id": 12,
+      "age": 35,
+      "companyName": "Company8",
+      "city": "Warsaw",
+      "cityDistrict": "Targówek",
+      "visionDefect": 0.0
+    },
+    {
+      "id": 13,
+      "age": 25,
+      "companyName": "Company6",
+      "city": "Krakow",
+      "cityDistrict": "District5",
+      "visionDefect": -1.0
+    },
+    {
+      "id": 14,
+      "age": 22,
+      "companyName": "Company7",
+      "city": "Warsaw",
+      "cityDistrict": "Bielany",
+      "visionDefect": 0.0
+    },
+    {
+      "id": 15,
+      "age": 30,
+      "companyName": "Company1",
+      "city": "Krakow",
+      "cityDistrict": "District6",
+      "visionDefect": -1.0
+    },
+    {
+      "id": 16,
+      "age": 35,
+      "companyName": "Company8",
+      "city": "Warsaw",
+      "cityDistrict": "Targówek",
+      "visionDefect": 0.0
+    }
+  ]
+}

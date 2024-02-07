@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Weird legal requirements</title>
+  <title>Weird legal requirements</title>
 </head>
 <body>
-    <h1>Weird legal requirements</h1>
+<div class="form-box">
+  <h1>Weird legal requirements</h1>
+  <div class="file-upload-wrapper">
+    <input type="file" name="file" id="file" class="file-input" />
+  </div>
+  <div class="rack-number-input-wrapper">
+    <label for="racks">Rack number</label>
+    <input id="racks" class="rack-input" name="racks" type="number" min="0" value="0" />
+  </div>
+  <div class="submit-button-wrapper">
+    <button id="groupButton">Group tubes into racks</button>
+  </div>
+  <div class="result-wrapper">
+    <p>Result:</p>
+    <div id="result" class="result-container"></div>
+  </div>
+</div>
 </body>
 </html>

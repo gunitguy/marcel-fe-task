@@ -1,4 +1,156 @@
+body {
+    font-family: "Overpass", sans-serif;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--gray-2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: var(--gray-1);
+    padding: 24px;
+    width: 40%;
+    border-radius: 16px;
+    box-shadow: var(--shadow-box);
+}
+
 h1 {
-    font-size: 50px;
-    color: darkblue;
+    font-size: 30px;
+    color: var(--gray-4);
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 16px 0;
+}
+
+.file-upload-wrapper:after {
+    content: var(--input-placeholder);
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--light-1);
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: block;
+    width: calc(100% - 50px);
+    pointer-events: none;
+    z-index: 20;
+    height: 50px;
+    line-height: 50px;
+    color: var(--gray-3);
+    border-radius: 8px;
+    font-weight: 300;
+    box-shadow: var(--inset-shadow-box);
+}
+
+.file-upload-wrapper:before {
+    content: "Upload";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    height: 50px;
+    background: var(--gray-3);
+    color: var(--gray-1);
+    font-weight: 700;
+    z-index: 25;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    pointer-events: none;
+    border-radius: 0 8px 8px 0;
+}
+
+.file-upload-wrapper:hover:before {
+    background: var(--gray-4);
+}
+
+.file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.rack-number-input-wrapper label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray-4);
+}
+
+.rack-number-input-wrapper input {
+    box-sizing: border-box;
+    margin-top: 16px;
+    font-size: 18px;
+    background: var(--light-1);
+    padding: 10px 15px;
+    display: block;
+    border: 0;
+    width: 100%;
+    z-index: 20;
+    height: 50px;
+    line-height: 50px;
+    color: var(--gray-3);
+    border-radius: 8px;
+    font-weight: 300;
+    box-shadow: var(--inset-shadow-box);
+}
+
+.submit-button-wrapper {
+    margin-top: 16px;
+}
+
+.submit-button-wrapper button {
+    height: 50px;
+    border: 0;
+    background: var(--gray-3);
+    color: var(--gray-1);
+    font-weight: 700;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 25;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 50px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.submit-button-wrapper button:hover {
+    background: var(--gray-4);
+}
+
+.result-wrapper p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray-4);
+    padding: 16px 0;
+}
+
+.result-container {
+    max-height: 400px;
+    overflow-y: scroll;
 }
